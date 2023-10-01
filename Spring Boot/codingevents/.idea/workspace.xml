@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71b4c481-52aa-4b04-b8ea-781f40f89330" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/events/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/events/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/events/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +66,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "static-resources",
+    "git-widget-placeholder": "add-bootstrap",
     "last_opened_file_path": "/Users/jacobwillman/Documents/LaunchCode Unit 2/Spring Boot/codingevents/src/main/resources/templates/events"
   }
 }]]></component>
