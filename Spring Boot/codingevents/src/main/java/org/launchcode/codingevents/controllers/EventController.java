@@ -1,5 +1,6 @@
 package org.launchcode.codingevents.controllers;
 
+import jakarta.validation.Valid;
 import org.launchcode.codingevents.data.EventData;
 import org.launchcode.codingevents.models.Event;
 import org.springframework.stereotype.Controller;
