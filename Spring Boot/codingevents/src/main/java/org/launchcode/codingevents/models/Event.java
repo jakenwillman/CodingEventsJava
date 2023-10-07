@@ -1,8 +1,6 @@
 package org.launchcode.codingevents.models;
 
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Size;
+import jakarta.validation.constraints.*;
 
 import java.util.Objects;
 
@@ -22,10 +20,24 @@ public class Event {
     @Email(message = "Invalid email. Try again.")
     private String contactEmail;
 
-    public Event(String name, String description, String contactEmail) {
+    @Size(min = 3, max = 20, message = "Name must be between 3 and 20 characters.")
+    @NotBlank(message = "Location cannot be left blank.")
+    private String location;
+
+    @AssertTrue(message = "Attendees must register for the event.")
+    private boolean registrationRequired;
+
+    @Positive(message = "Number of attendees must be a number greater than zero")
+    @NotNull(message = "Number of attendees is required")
+    private int numberOfAttendees;
+
+    public Event(String name, String description, String contactEmail, String location, boolean registrationRequired, int numberOfAttendees) {
         this.name = name;
         this.description = description;
         this.contactEmail = contactEmail;
+        this.location = location;
+        this.registrationRequired = true;
+        this.numberOfAttendees = numberOfAttendees;
         this.id = nextId;
         nextId++;
     }
@@ -60,6 +72,30 @@ public class Event {
 
     public int getId() {
         return id;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public boolean isRegistrationRequired() {
+        return registrationRequired;
+    }
+
+    public void setRegistrationRequired(boolean registrationRequired) {
+        this.registrationRequired = registrationRequired;
+    }
+
+    public int getNumberOfAttendees() {
+        return numberOfAttendees;
+    }
+
+    public void setNumberOfAttendees(int numberOfAttendees) {
+        this.numberOfAttendees = numberOfAttendees;
     }
 
     @Override
