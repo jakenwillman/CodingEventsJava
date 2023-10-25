@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71b4c481-52aa-4b04-b8ea-781f40f89330" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/data/EventRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/controllers/EventController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/data/EventData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/data/EventRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/data/EventRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +72,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "persistent-model",
+    "git-widget-placeholder": "persistent-controller",
     "last_opened_file_path": "/Users/jacobwillman/Documents/LaunchCode Unit 2/Spring Boot/codingevents/src/main/resources/templates/events"
   }
 }]]></component>
