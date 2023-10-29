@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="71b4c481-52aa-4b04-b8ea-781f40f89330" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/controllers/TagController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/events/detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/tags/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/tags/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/controllers/EventController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/controllers/EventController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/eventCategories/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/eventCategories/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/events/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/events/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/events/delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/events/delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/events/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/events/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/fragments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/models/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/models/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/models/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/codingevents/models/Tag.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Thymeleaf" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -80,7 +72,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "add-tags",
+    "git-widget-placeholder": "many-to-many",
     "last_opened_file_path": "/Users/jacobwillman/Documents/LaunchCode Unit 2/Spring Boot/codingevents/src/main/resources/templates/events"
   }
 }]]></component>
