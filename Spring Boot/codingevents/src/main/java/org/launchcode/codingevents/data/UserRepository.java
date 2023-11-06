@@ -1,6 +1,6 @@
 package org.launchcode.codingevents.data;
 
-import org.apache.catalina.User;
+import org.launchcode.codingevents.models.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Integer> {
